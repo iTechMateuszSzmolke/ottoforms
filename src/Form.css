@@ -1,0 +1,137 @@
+form {
+    background-color: #f1F2F2;
+    margin: 0 auto;
+    width: 90%;
+    height: 12%;
+    padding: 50px 5% 70px 5%;
+    border-radius: 15px;
+}
+
+.form1 {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: #0C2563;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: #0C2563;
+    font-weight: 300;
+    margin-bottom: 1%;
+}
+
+.input1 {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: #0C2563;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 2%;
+    height: 40px;
+}
+
+.buttonbox {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: #0C2563;
+    display: flex;
+    gap: 30px;
+    padding-top: 60px;
+}
+
+.button1 {
+    background-color: #0C2563;
+    color: white;
+    border-radius: 5px;
+    height: 35px;
+    width: 140px;
+    border: none;
+    font-weight: 600;
+    font-size: large;
+}
+
+
+.button2 {
+    background-color: #96C2E9;
+    color: white;
+    border-radius: 5px;
+    height: 35px;
+    width: 140px;
+    border: none;
+    font-weight: 600;
+    font-size: large;
+}
+
+.button4 {
+    background-color: #96C2E9;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-weight: 600;
+    font-size: small;
+    height: 35px;
+    width: 190px;
+}
+
+
+.thankyou1 {
+    font-size: 300%;
+    margin: 8% auto 2%;
+    text-align: center;
+}
+
+.thankyou2 {
+    font-size: 180%;
+    margin: 2% auto;
+    text-align: center;
+}
+
+.thankyou3 {
+    font-size: 150%;
+    font-weight: 500;
+    margin: 2% auto 4%;
+    text-align: center;
+}
+
+.button3 {
+    background-color: #0C2563;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    font-weight: 600;
+    font-size: large;
+    margin: auto auto 8%;
+    display: block;
+}
+
+
+.tag-item {
+    background-color: #d4d5d6;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 30px;
+    height: 30px;
+    padding: 0 4px 0 1rem;
+    display: inline-flex;
+    align-items: center;
+    margin: 0 0.3rem 0.3rem 0;
+}
+
+
+.tag-item > .button-delete {
+    background-color: white;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    font: inherit;
+    margin-left: 10px;
+    font-weight: bold;
+    padding: 0;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,115 @@
+.card-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+
+@media (max-width: 908px) {
+    .card-wrapper {
+        justify-content: center;
+    }
+}
+
+.card {
+    background-color: #96C2E9;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    width: 240px;
+    margin-bottom: 5%;
+    transition-duration: 1s;
+}
+
+@media (max-width: 1330px) {
+    .card {
+        width: 45%;
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 650px) {
+    .card {
+        width: 80%;
+        margin-bottom: 5%;
+    }
+}
+
+.cardimg {
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.imgwrapper {
+    height: 100px;
+    margin-bottom: 25px;
+}
+
+.title {
+    height: 100px;
+    font-size: 10px;
+    text-align: left;
+    width: 100%;
+}
+
+.cardtext {
+    height: 200px;
+}
+
+.card2 {
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    width: 240px;
+    /*margin-bottom: 50px;*/
+    margin-bottom: 5%;
+    transition-duration: 1s;
+}
+
+@media (max-width: 1330px) {
+    .card2 {
+        width: 45%;
+        /*margin-bottom: 50px;*/
+    }
+}
+
+@media (max-width: 650px) {
+    .card2 {
+        width: 80%;
+    }
+}
+
+.card2:hover {
+    transform: scale(1.03);
+}
+
+.botcardtext {
+    color: #0C2563;
+    margin-bottom: 0;
+}
+
+
+.card1 {
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+    width: 280px;
+    margin-bottom: 50px;
+    transition-duration: 1s;
+}
+
+@media (max-width: 1330px) {
+    .card1 {
+        width: 100%;
+    }
+}
