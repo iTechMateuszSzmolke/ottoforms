@@ -1,0 +1,43 @@
+
+.webSiteContainerStyle {
+    width: 1320px;
+    margin: 0 auto;
+}
+
+/*web site container style to RWD*/
+@media (max-width: 1330px) {
+    .webSiteContainerStyle {
+        width: auto;
+    }
+}
+
+.mainView {
+    color: #0C2563;
+    margin: 50px 6% 0 6%;
+}
+
+/*styles for fixed elements*/
+h1 {
+    font-weight: 700;
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+form {
+    background-color: #f1F2F2;
+    margin: 0 auto;
+    width: 90%;
+    height: 12%;
+    padding: 50px 5% 70px 5%;
+    border-radius: 15px;
+}
+
+label {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: #0C2563;
+    font-weight: 300;
+    margin-bottom: 1%;
+}

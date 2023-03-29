@@ -1,4 +1,4 @@
-.card-wrapper {
+.main-recruitment-steps-wrappers {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -6,12 +6,12 @@
 }
 
 @media (max-width: 908px) {
-    .card-wrapper {
+    .main-recruitment-steps-wrapers {
         justify-content: center;
     }
 }
 
-.card {
+.single-job-offer-container {
     background-color: #96C2E9;
     border-radius: 20px;
     display: flex;
@@ -24,43 +24,43 @@
 }
 
 @media (max-width: 1330px) {
-    .card {
+    .single-job-offer-container {
         width: 45%;
         margin-bottom: 50px;
     }
 }
 
 @media (max-width: 650px) {
-    .card {
+    .single-job-offer-container {
         width: 80%;
         margin-bottom: 5%;
     }
 }
 
-.cardimg {
+.recruitment-steps-wrapper-image {
     display: flex;
     justify-content: center;
     width: 60%;
     margin: 0 auto;
 }
 
-.imgwrapper {
+.recruitment-steps-wrapper-image-container {
     height: 100px;
     margin-bottom: 25px;
 }
 
-.title {
+.recruitment-steps-title {
     height: 100px;
     font-size: 10px;
     text-align: left;
     width: 100%;
 }
 
-.cardtext {
+.recruitment-steps-description {
     height: 200px;
 }
 
-.card2 {
+.competition-container {
     background-color: white;
     border-radius: 20px;
     display: flex;
@@ -74,29 +74,29 @@
 }
 
 @media (max-width: 1330px) {
-    .card2 {
+    .competition-container {
         width: 45%;
         /*margin-bottom: 50px;*/
     }
 }
 
 @media (max-width: 650px) {
-    .card2 {
+    .competition-container {
         width: 80%;
     }
 }
 
-.card2:hover {
+.competition-container:hover {
     transform: scale(1.03);
 }
 
-.botcardtext {
+.competition-container-text {
     color: #0C2563;
     margin-bottom: 0;
 }
 
 
-.card1 {
+.competition-container-card {
     background-color: white;
     border-radius: 20px;
     display: flex;
@@ -109,7 +109,7 @@
 }
 
 @media (max-width: 1330px) {
-    .card1 {
+    .competition-container-card {
         width: 100%;
     }
 }

@@ -1,45 +1,28 @@
-form {
-    background-color: #f1F2F2;
-    margin: 0 auto;
-    width: 90%;
-    height: 12%;
-    padding: 50px 5% 70px 5%;
-    border-radius: 15px;
-}
-
-.form1 {
-    font-family: 'Plus Jakarta Sans', sans-serif;
+.signle-form-element {
     color: #0C2563;
     margin-top: 2%;
     display: flex;
     flex-direction: column;
 }
 
-label {
-    font-family: 'Plus Jakarta Sans', sans-serif;
-    color: #0C2563;
-    font-weight: 300;
-    margin-bottom: 1%;
-}
 
-.input1 {
-    font-family: 'Plus Jakarta Sans', sans-serif;
+.input-element-on-form {
     color: #0C2563;
     border-radius: 5px;
     border: none;
-    margin-bottom: 2%;
+    /*margin-bottom: 2%;*/
     height: 40px;
+    width: 100%;
 }
 
-.buttonbox {
-    font-family: 'Plus Jakarta Sans', sans-serif;
+.box-for-send-button {
     color: #0C2563;
     display: flex;
     gap: 30px;
     padding-top: 60px;
 }
 
-.button1 {
+.send-button {
     background-color: #0C2563;
     color: white;
     border-radius: 5px;
@@ -51,7 +34,7 @@ label {
 }
 
 
-.button2 {
+.clear-button {
     background-color: #96C2E9;
     color: white;
     border-radius: 5px;
@@ -62,7 +45,7 @@ label {
     font-size: large;
 }
 
-.button4 {
+.add-next-email-button {
     background-color: #96C2E9;
     color: white;
     border-radius: 5px;
@@ -71,29 +54,30 @@ label {
     font-size: small;
     height: 35px;
     width: 190px;
+    margin-top: 2%;
 }
 
 
-.thankyou1 {
+.text-in-the-form-thank-you {
     font-size: 300%;
     margin: 8% auto 2%;
     text-align: center;
 }
 
-.thankyou2 {
+.text-in-the-form-for-the-submitted-application {
     font-size: 180%;
     margin: 2% auto;
     text-align: center;
 }
 
-.thankyou3 {
+.text-in-the-form-we-will-contact-you-soon {
     font-size: 150%;
     font-weight: 500;
     margin: 2% auto 4%;
     text-align: center;
 }
 
-.button3 {
+.button-back-to-form {
     background-color: #0C2563;
     color: white;
     padding: 10px;
@@ -134,4 +118,31 @@ label {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.trash-button {
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+}
+
+.main-email-container {
+    flex: 1;
+    display: flex;
+
+}
+
+.email-container {
+    flex: 0.9;
+}
+
+.email-container-full-view {
+    flex: 1;
+}
+
+.trash-container {
+    flex: 0.1;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
