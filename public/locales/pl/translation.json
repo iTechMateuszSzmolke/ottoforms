@@ -1,0 +1,44 @@
+{
+    "Banner" : {
+        "image-banner" : "https://bankomaty.ottolandingpages.pl/images/Zasob_10.png",
+        "Logistic-image" : "https://bankomaty.ottolandingpages.pl/images/Zasob_13.png",
+        "Production-image" : "https://bankomaty.ottolandingpages.pl/images/Zasob_14.png",
+        "Automotive-image" : "https://bankomaty.ottolandingpages.pl/images/Zasob_15.png"
+    },
+
+    "Form": {
+        "Title" : "WYPEŁNIJ FORMULARZ I ZBUDUJ SWOJĄ KARIERĘ W OTTO",
+        "Name" : "Imię",
+        "Second-name" : "Nazwisko",
+        "Phone-number" : "Numer telefonu",
+        "Adres-e-mail" : "Adres e-mail numer",
+        "Add-next-email" : "Dodaj kolejny adres e-mail",
+        "Send": "Wyślij",
+        "Clear" : "Wyczyść",
+        "Thank-you" : "DZIĘKUJEMY!",
+        "For-sent-application" : "ZA WYSŁANĄ APLIKACJĘ",
+        "We-will-contact-you-soon" : "Skontaktujemy się wkrótce",
+        "Back-to-form" : "powrót do formularza"
+    },
+
+    "Steps-info" : {
+        "Fill-in-the-form" : "WYPEŁNIJ FORMULARZ",
+        "Fill-in-the-form-description" : "Zostaw kilka informacji o sobie, aby nasz konsultant mógł się z Tobą skontaktować i przeprowadzić przez cały proces rekrutacji.",
+        "Talk-to-a-consultant" : "POROZMAWIAJ Z KONSULTANTEM",
+        "Talk-to-a-consultant-description" : "W OTTO stawiamy na ludzi, dlatego już na start przydzielimy Ci osobę kontaktową, która zadba o Twoje zatrudnienie.",
+        "Complete-the-formalities" : "DOPEŁNIJ FORMALNOŚCI",
+        "Complete-the-formalities-description" : "Konsultant pomoże Ci w załatwieniu niezbędnych dokumentów, wyjaśni kwestie prawne zatrudnienia i będzie Twoim wsparciem nawet wtedy, gdy zaczniesz już pracę!",
+        "Work-and-earn" : "PRACUJ I ZARABIAJ",
+        "Work-and-earn-description" : "Zdobądź zatrudnienie i zgarnij pierwszą wypłatę nawet po tygodniu pracy. A z czasem... Buduj swoją karierę z OTTO."
+    },
+
+    "Offers" : {
+        "Choose-an-offer-for-you" : "WYBIERZ OFERTĘ DLA SIEBIE",
+        "Choose-an-offer-for-you-description" : "OTTO Work Force każdego dnia zatrudnia ludzi na terenie całej Polski i nie tylko. Dołącz do grona zadowolonych pracownikow! Mamy dla Ciebie pracę w branżach takich, jak: produkcja, logistyka, handel, usługi i e-commerce. Zostaw kontakt i dowiedz się więcej o naszych ofertach!"
+    },
+
+    "Languages" : {
+        "stringLanguages" : "PL",
+        "imageLanguages" : "https://bankomaty.ottolandingpages.pl/images/Zasob_PL.png"
+    }
+}

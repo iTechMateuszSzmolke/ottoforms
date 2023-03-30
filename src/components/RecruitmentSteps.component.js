@@ -1,54 +1,51 @@
 import '../style/RecruitmentSteps.style.css';
+import '../dictionary/i18next';
 
-const RecruitmentSteps = () => {
+const RecruitmentSteps = (props) => {
+
+    const {t} = props
+
     return (
         <div className="main-recruitment-steps-wrappers">
             <div className="single-job-offer-container">
                 <div className="recruitment-steps-wrapper-image-container"><img src="https://bankomaty.ottolandingpages.pl/images/Zasob_6.png" alt="" className="recruitment-steps-wrapper-image"/></div>
-                <div className="recruitment-steps-title"><h1>WYPEŁNIJ FORMULARZ</h1></div>
-                <div className="recruitment-steps-description"><p>Zostaw kilka informacji o sobie, aby nasz konsultant mógł się z Tobą
-                    skontaktować i przeprowadzić przez cały proces rekrutacji.</p></div>
+                <div className="recruitment-steps-title"><h1>{t("Steps-info.Fill-in-the-form")}</h1></div>
+                <div className="recruitment-steps-description"><p>{t("Steps-info.Fill-in-the-form-description")}</p></div>
             </div>
             <div className="single-job-offer-container">
                 <div className="recruitment-steps-wrapper-image-container"><img src="https://bankomaty.ottolandingpages.pl/images/Zasob_3.png" alt="" className="recruitment-steps-wrapper-image"/></div>
-                <div className="recruitment-steps-title"><h1>POROZMAWIAJ Z KONSULTANTEM</h1></div>
-                <div className="recruitment-steps-description"><p>W OTTO stawiamy na ludzi, dlatego już na start przydzielimy Ci osobę
-                    kontaktową, która zadba o Twoje zatrudnienie.</p></div>
+                <div className="recruitment-steps-title"><h1>{t("Steps-info.Talk-to-a-consultant")}</h1></div>
+                <div className="recruitment-steps-description"><p>{t("Steps-info.Talk-to-a-consultant-description")}</p></div>
             </div>
             <div className="single-job-offer-container">
                 <div className="recruitment-steps-wrapper-image-container"><img src="https://bankomaty.ottolandingpages.pl/images/Zasob_5.png" alt="" className="recruitment-steps-wrapper-image"/></div>
-                <div className="recruitment-steps-title"><h1>DOPEŁNIJ FORMALNOŚCI</h1></div>
-                <div className="recruitment-steps-description"><p>Konsultant pomoże Ci w załatwieniu niezbędnych dokumentów, wyjaśni kwestie
-                    prawne zatrudnienia i będzie Twoim wsparciem nawet wtedy, gdy zaczniesz już pracę!</p></div>
+                <div className="recruitment-steps-title"><h1>{t("Steps-info.Complete-the-formalities")}</h1></div>
+                <div className="recruitment-steps-description"><p>{t("Steps-info.Complete-the-formalities-description")}</p></div>
             </div>
             <div className="single-job-offer-container">
                 <div className="recruitment-steps-wrapper-image-container"><img src="https://bankomaty.ottolandingpages.pl/images/Zasob_4.png" alt="" className="recruitment-steps-wrapper-image"/></div>
-                <div className="recruitment-steps-title"><h1>PRACUJ I ZARABIAJ</h1></div>
-                <div className="recruitment-steps-description"><p>Zdobądź zatrudnienie i zgarnij pierwszą wypłatę nawet po tygodniu pracy. A
-                    z czasem... Buduj swoją karierę z OTTO.</p></div>
+                <div className="recruitment-steps-title"><h1>{t("Steps-info.Work-and-earn")}</h1></div>
+                <div className="recruitment-steps-description"><p>{t("Steps-info.Work-and-earn-description")}</p></div>
             </div>
 
 
             <div className="competition-container">
-                <h2>WYBIERZ OFERTĘ DLA SIEBIE</h2>
+                <h2>{t("Offers.Choose-an-offer-for-you")}</h2>
 
-                <div className="recruitment-steps-description"><p className="competition-container-text">OTTO Work Force każdego dnia zatrudnia ludzi na
-                    terenie całej Polski i nie tylko. Dołącz do grona zadowolonych pracownikow! Mamy dla Ciebie pracę w
-                    branżach takich, jak: produkcja, logistyka, handel, usługi i e-commerce. Zostaw kontakt i dowiedz
-                    się więcej o naszych ofertach!</p>
+                <div className="recruitment-steps-description"><p className="competition-container-text">{t("Offers.Choose-an-offer-for-you-description")}</p>
                 </div>
             </div>
 
             <div className="competition-container">
-            <img src="https://bankomaty.ottolandingpages.pl/images/Zasob_13.png" className="competition-container-card" alt=""/>
+            <img src={t("Banner.Logistic-image")} className="competition-container-card" alt=""/>
             </div>
 
             <div className="competition-container">
-            <img src="https://bankomaty.ottolandingpages.pl/images/Zasob_14.png" className="competition-container-card" alt="" />
+            <img src={t("Banner.Production-image")} className="competition-container-card" alt="" />
             </div>
 
             <div className="competition-container">
-            <img src="https://bankomaty.ottolandingpages.pl/images/Zasob_15.png" className="competition-container-card" alt="" />
+            <img src={t("Banner.Automotive-image")} className="competition-container-card" alt="" />
             </div>
 
         </div>

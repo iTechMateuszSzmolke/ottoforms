@@ -1,6 +1,7 @@
 import '../style/ContactForm.style.css'
 import {useState} from "react";
 import LoadingSpin from "react-loading-spin";
+import '../dictionary/i18next';
 
 const initialData = {
     first_name: '',
@@ -10,7 +11,10 @@ const initialData = {
 };
 
 
-const ContactForm = () => {
+
+const ContactForm = (props) => {
+
+    const {t} = props
 
     // hooks
     const [success, setSuccess] = useState(false);
@@ -75,6 +79,11 @@ const ContactForm = () => {
 
         };
 
+    //clear inputs
+    const handleResetForm = () => {
+        setFormData({first_name: '', last_name: '', phone_number: '', email: Array('')})
+    }
+
 
     // remove email
     const handleRemoveEmail = (index) => {
@@ -91,12 +100,13 @@ const ContactForm = () => {
                         success === false ?
                             <form onSubmit={handleSubmit}>
                                 <div className={'signle-form-element'}>
-                                    <h3>WYPEŁNIJ FORMULARZ I ZBUDUJ SWOJĄ KARIERĘ W OTTO</h3>
+                                    <h3>{t('Form.Title')}</h3>
+                                    {/*<h3>WYPEŁNIJ FORMULARZ I ZBUDUJ SWOJĄ KARIERĘ W OTTO</h3>*/}
 
                                 </div>
 
                                 <div className={'signle-form-element'}>
-                                    <label>Imię</label>
+                                    <label>{t('Form.Name')}</label>
                                     <input onChange={handleChangeInput}
                                            value={formData.first_name}
                                            type="text"
@@ -106,9 +116,10 @@ const ContactForm = () => {
                                            name="first_name"
                                            required
                                     />
+
                                 </div>
                                 <div className={'signle-form-element'}>
-                                    <label>Nazwisko</label>
+                                    <label>{t('Form.Second-name')}</label>
                                     <input onChange={handleChangeInput}
                                            value={formData.last_name}
                                            type="text"
@@ -120,7 +131,7 @@ const ContactForm = () => {
                                     />
                                 </div>
                                 <div className="signle-form-element">
-                                    <label htmlFor="">Numer telefonu</label>
+                                    <label htmlFor="">{t('Form.Phone-number')}</label>
                                     <input onChange={handleChangeInput}
                                            value={formData.phone_number}
                                            type="tel"
@@ -137,7 +148,7 @@ const ContactForm = () => {
                                     <div className="signle-form-element" key={index}>
 
 
-                                        <label htmlFor="">Adres e-mail numer {index + 1}</label>
+                                        <label htmlFor="">{t('Form.Adres-e-mail')} {index + 1}</label>
 
                                         <div className={'main-email-container'}>
                                             {/*if email lenght is >1 then create full size input without trash element*/}
@@ -179,8 +190,7 @@ const ContactForm = () => {
                                 ))}
 
 
-                                <button className="add-next-email-button" name="" onClick={handleAddNewEmail}>Dodaj kolejny adres
-                                    e-mail
+                                <button className="add-next-email-button" name="" onClick={handleAddNewEmail}>{t('Form.Add-next-email')}
                                 </button>
 
                                 {spin === true ?
@@ -189,20 +199,20 @@ const ContactForm = () => {
                                     </div>
                                     :
                                     <div className="box-for-send-button">
-                                    <button className="send-button" name="" type="submit">Wyślij</button>
-                                    <button className="clear-button" type="reset" name="wyczysc">Wyczyść</button>
+                                    <button className="send-button" name="" type="submit">{t('Form.Send')}</button>
+                                    <button className="clear-button" name="" type="reset" onClick={handleResetForm}>{t('Form.Clear')}</button>
                                     </div>
                                 }
 
                             </form>
                             :
                             <form>
-                                <h3 className="text-in-the-form-thank-you">DZIĘKUJEMY!</h3>
-                                <h3 className="text-in-the-form-for-the-submitted-application">ZA WYSŁANĄ APLIKACJĘ</h3>
-                                <h3 className="text-in-the-form-we-will-contact-you-soon">Skontaktujemy się wkrótce</h3>
+                                <h3 className="text-in-the-form-thank-you">{t("Form.Thank-you")}</h3>
+                                <h3 className="text-in-the-form-for-the-submitted-application">{t("Form.§For-sent-application")}</h3>
+                                <h3 className="text-in-the-form-we-will-contact-you-soon">{t("Form.We-will-contact-you-soon")}</h3>
 
-                                <button type="submit" className="button-back-to-form" onClick={() => setSuccess(false)}>powrót do
-                                    formularza
+                                <button type="submit" className="button-back-to-form" onClick={() => setSuccess(false)}>
+                                    {t("Form.Back-to-form")}
                                 </button>
                             </form>
                     }

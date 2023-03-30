@@ -1,0 +1,46 @@
+{
+    "Banner": {
+        "image-banner": "https://bankomaty.ottolandingpages.pl/images/Zasob_11.png",
+        "Logistic-image" : "https://bankomaty.ottolandingpages.pl/images/Zasob_16.png",
+        "Production-image" : "https://bankomaty.ottolandingpages.pl/images/Zasob_17.png",
+        "Automotive-image" : "https://bankomaty.ottolandingpages.pl/images/Zasob_18.png"
+    },
+
+    "Form": {
+        "Title" : "ЗАПОВНИ ФОРМУ І ЗБУДУЙ СВОЮ КАРЬЄРУ З ОТТО",
+        "Name" : "Ім’я та прізвище",
+        "Second-name" : "Номер телефону",
+        "Phone-number" : "Номер телефону",
+        "Adres-e-mail" : "Номер електронної адреси",
+        "Add-next-email" : "додати іншу адресу електронної пошти",
+        "Send": "Вислати",
+        "Clear" : "Відмінити",
+        "Thank-you" : "ДЯКУЮ!",
+        "For-sent-application" : "ЗА ВІДПРАВЛЕНУ ЗАЯВКУ",
+        "We-will-contact-you-soon" : "Ми зв'яжемося з вами найближчим часом",
+        "Back-to-form" : "назад до форми"
+
+    },
+
+    "Steps-info" : {
+        "Fill-in-the-form" : "ЗАПОВНИ ФОРМУЛЯР",
+        "Fill-in-the-form-description" : "Залиши інформацію про себе, щоб наш консультант міг зв’язатися з Тобою та провести весь процес рекрутації",
+        "Talk-to-a-consultant" : "ПОГОВОРИ З КОНСУЛЬТАНТОМ",
+        "Talk-to-a-consultant-description" : "В OTTO ми зосереджені на людях, тому ми з самого початку призначимо Тобі особу до контакту, яка подбає про Твоє працевлаштування",
+        "Complete-the-formalities" : "ВИКОНАЙ ФОРМАЛЬНОСТІ",
+        "Complete-the-formalities-description" : "Консультант допоможе Тобі з оформленням необхідних документів, роз’яснить юридичні питання по працевлаштуванню та буде Твою підтримкою навіть коли ти почнеш вже працювати!",
+        "Work-and-earn" : "ПРАЦЮЙ ТА ЗАРОБЛЯЙ",
+        "Work-and-earn-description" : "Отримай роботу та свою першу зарплату навіть після першого тижня роботи. І з часом... Побудуй свою кар'єру з OTTO."
+    },
+
+    "Offers" : {
+        "Choose-an-offer-for-you" : "Вибери вакансію для себе",
+        "Choose-an-offer-for-you-description" : "OTTO Work Force щодня працевлаштовує людей по всій Польщі та за її межами. Приєднуйся до групи задоволених працівників! У нас є робота для Тебе у таких галузях, як: виробництво, логістика, торгівля, послуги та e-commerce. Залиши контакт і дізнайся більше про наші пропозиції!"
+    },
+
+    "Languages" : {
+        "stringLanguages" : "UA",
+        "imageLanguages" : "https://bankomaty.ottolandingpages.pl/images/Zasob_UA.png"
+
+    }
+}

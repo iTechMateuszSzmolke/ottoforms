@@ -6,6 +6,8 @@
     padding-right: 7%;
 }
 
+
+
 .left-menu {
     flex: 0.5;
 }
@@ -18,25 +20,34 @@
 }
 
 .lang-menu {
-    width: 100px;
+    width: 60px;
     text-align: right;
     font-weight: bold;
     position: relative;
 }
+
+
 .lang-menu .selected-lang {
     display: flex;
     justify-content: space-between;
     line-height: 2;
     cursor: pointer;
+
 }
-.lang-menu .selected-lang:before {
+
+
+.image-language-before-name {
     content: '';
     display: inline-block;
     width: 32px;
     height: 32px;
     background-size: contain;
     background-repeat: no-repeat;
+    background-image: url(https://bankomaty.ottolandingpages.pl/images/Zasob_PL.png);
+    margin-right: 10px;
 }
+
+
 
 .lang-menu ul {
     margin: 0;
@@ -45,7 +56,7 @@
     background-color: #fff;
     border: 1px solid #f8f8f8;
     position: absolute;
-    top: 45px;
+    top: 15px;
     right: 0px;
     width: 125px;
     border-radius: 5px;
@@ -82,14 +93,23 @@
     background-repeat: no-repeat;
 }
 
-.lang-menu:hover ul {
-    display: block;
-}
-
 .pl:before {
     background-image: url(https://bankomaty.ottolandingpages.pl/images/Zasob_PL.png);
 }
 
 .ua:before {
     background-image: url(https://bankomaty.ottolandingpages.pl/images/Zasob_UA.png);
+}
+
+.logo-image-menu {
+    vertical-align: middle;
+    height: 90px;
+}
+
+.lang-menu:hover ul {
+    display: block;
+}
+
+.languages-container-img-and-string {
+    display: flex;
 }
